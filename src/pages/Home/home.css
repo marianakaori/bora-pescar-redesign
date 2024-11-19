@@ -10,7 +10,6 @@
 /* Contêiner do logo */
 .logo-container {
     text-align: center;
-    margin-bottom: -20px; /* Ajuste de espaçamento negativo para sobrepor */
     z-index: 3; 
     position: relative;
 }
@@ -21,16 +20,30 @@
     width: 100%;
     height: auto;
     margin: 0 auto; 
+    position: absolute; 
+    z-index: 3; 
+    top: 5%;
+    left: 50%; 
+    transform: translate(-50%, 0); 
 }
 
+/* Contêiner do logo */
+.logo-container {
+    position: relative; 
+    margin: 0; 
+    padding: 0; 
+}
 
 .search-container {
     text-align: center;
     background-color: rgb(34, 87, 161);
-    padding: 30px 20px;
+    padding: 40px 30px;
     border-radius: 5px;
     margin-top: -40px; 
-    position: relative;
+    position: absolute;
+    top: 55%; /* Ajusta a posição no topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para manter centralizado */
     z-index: 2;
     width: 90%;
     max-width: 800px;

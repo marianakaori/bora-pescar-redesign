@@ -13,11 +13,12 @@ const Home = () => {
         <div>
             <img src={marBackground} alt="Imagem do mar no pôr do sol, com as cores predominantemente azuis e laranjas" />
             
-            <div class="logo-container">
-                <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
-
-            </div>
+         
             <div class="search-container">
+                <div class="logo-container">
+                    <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
+
+                </div>
                 <input type="text" class="search-input" placeholder="Digite sua busca aqui..." />
             </div>
 
