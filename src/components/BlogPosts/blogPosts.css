@@ -1,8 +1,15 @@
 .blog-container {
     margin: 40px 0;
 }
+
+.blog-title { 
+    text-align: center;
+    font-size: var(--font-size-l);
+    color: var(--primary-color);
+}
 .cards-blog-container {
     display: flex;
+    justify-content: space-between;
     margin: 40px var(--outer-margin);
 }
 
