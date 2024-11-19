@@ -10,14 +10,37 @@
   /* Fontes */
   --font-family: 'Open Sans', sans-serif;
 
-  --font-size-xs: 1rem;      /*16px*/
-  --font-size-s: 1.25rem;    /*20px*/
-  --font-size-m: 1.5rem;     /*24px*/
-  --font-size-l: 1.75rem;    /*28px*/
-  --font-size-xl: 3rem;      /*48px*/
+  --font-size-xs: 1rem;      /* 16px */
+  --font-size-s: 1.25rem;    /* 20px */
+  --font-size-m: 1.5rem;     /* 24px */
+  --font-size-l: 1.75rem;    /* 28px */
+  --font-size-xl: 3rem;      /* 48px */
 
   /* Outros */
   --border-radius: 8px;
+}
+
+[theme="high-contrast"] {
+  /* TODO: definir as cores de alto contraste */
+  --primary-color: #ffffff;
+  --background-color: #ff18b2;
+  --text-color: #f4f4f4;
+}
+
+[font-size="medium"] {
+  --font-size-xs: 1.25rem;   /* 20px */
+  --font-size-s: 1.5rem;     /* 24px */
+  --font-size-m: 1.75rem;    /* 28px */
+  --font-size-l: 2rem;       /* 32px */
+  --font-size-xl: 3.25rem;   /* 52px */
+}
+
+[font-size="large"] {
+  --font-size-xs: 1.5rem;    /* 24px */
+  --font-size-s: 1.75rem;    /* 28px */
+  --font-size-m: 2rem;       /* 32px */
+  --font-size-l: 2.25rem;    /* 36px */
+  --font-size-xl: 3.5rem;    /* 56px */
 }
 
 *,
