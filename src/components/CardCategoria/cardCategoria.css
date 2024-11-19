@@ -1,7 +1,7 @@
 .card-categoria {
     position: relative;
     width: auto; 
-    border-radius: 8px; /* Para suavizar as bordas */
+    border-radius: 8px; 
     overflow: hidden; /* Garante que nada ultrapasse os limites */
 }
   
