@@ -16,10 +16,17 @@ const Home = () => {
                 <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
                 <input type="text" placeholder="Digite sua busca aqui..." className="search-input"/>
             </div>
+            <h1 className="main-title">O maior portal de anúncios de pesca do Brasil!</h1>
+            <p className="subtitle">
+                Fácil, rápido e eficiente. Digite na busca o que procura ou selecione abaixo as categorias desejadas!
+            </p>
             <div className="cards-categoria-container">
                 {cardsCategoriaData.map((cardCategoria, index) => (
                     <CardCategoria key={index} title={cardCategoria.title} image={cardCategoria.image} alt={cardCategoria.alt} />
                 ))}
+            </div>
+            <div className="ad-square">
+                 Anúncio
             </div>
             <BlogPosts cardsBlogData={cardsBlogData} />
         </div>

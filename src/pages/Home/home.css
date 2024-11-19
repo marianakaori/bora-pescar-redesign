@@ -6,9 +6,111 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 45px;
-    
     margin: var(--outer-margin);
     z-index: 1;
 }
 
 
+.main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; 
+    font-size: 40px;
+    text-align: center;
+    color: #333;     margin: 20px 0;
+    color: #737373;
+  }
+  .subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    text-align: center; 
+    color: #737373; 
+    margin-bottom: 30px; 
+  }
+
+/* Contêiner do logo */
+.logo-container {
+    text-align: center;
+    z-index: 3; 
+    position: absolute;
+    top: 20%; /* Ajusta a posição no topo */
+    left: 50%; /* Centraliza horizontalmente */
+}
+
+/* Estilo do logo */
+.title-image {
+    max-width: 250px; 
+    width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    position: absolute; 
+    z-index: 3; 
+    top: 5%;
+    left: 50%; 
+    transform: translate(-50%, 0); 
+}
+
+/* Contêiner do logo */
+.logo-container {
+    position: relative; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.search-container {
+    text-align: center;
+    background-color: rgb(34, 87, 161);
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin-top: -40px; 
+    position: absolute;
+    top: 55%; /* Ajusta a posição no topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para manter centralizado */
+    z-index: 2;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Campo de entrada */
+.search-input {
+    width: 70%; 
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Efeito de foco */
+.search-input:focus {
+    border-color: #fff; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff; /* Texto branco */
+}
+
+.center-container-square {
+    display: flex;
+    margin: 40px 0;
+  }
+  
+  .ad-square {
+    width: auto;
+    height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
