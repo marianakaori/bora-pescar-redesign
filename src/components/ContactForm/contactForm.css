@@ -2,8 +2,9 @@
     background-color: var(--light-color);
     border-radius: 8px;
     padding: 20px 30px;
-    width: auto;
-    margin: 0 auto;
+    height: 850px;
+    width: 800px;
+    margin: 0;
     font-size: var(--font-size-s);
 }
   
