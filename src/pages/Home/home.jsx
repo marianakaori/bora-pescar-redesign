@@ -1,6 +1,8 @@
 import CardCategoria from '../../components/CardCategoria/cardCategoria';
 import cardsCategoriaData from '../../data/cardsCategoriaData.json';
+import cardsBlogData from '../../data/cardsBlogData.json';
 import marBackground from '../../assets/mar_background_subtract.png'
+import BlogPosts from '../../components/BlogPosts/blogPosts';
 
 import './home.css';
 
@@ -13,6 +15,7 @@ const Home = () => {
                     <CardCategoria key={index} title={cardCategoria.title} image={cardCategoria.image} alt={cardCategoria.alt} />
                 ))}
             </div>
+            <BlogPosts cardsBlogData={cardsBlogData} />
         </div>
     );
 };
