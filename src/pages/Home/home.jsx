@@ -2,6 +2,9 @@ import CardCategoria from '../../components/CardCategoria/cardCategoria';
 import cardsCategoriaData from '../../data/cardsCategoriaData.json';
 import cardsBlogData from '../../data/cardsBlogData.json';
 import marBackground from '../../assets/mar_background_subtract.png'
+import BlogPosts from '../../components/BlogPosts/blogPosts';
+
+import logo from '../../assets/borapescar2.png'
 
 import './home.css';
 
@@ -11,8 +14,7 @@ const Home = () => {
             <img src={marBackground} alt="Imagem do mar no pôr do sol, com as cores predominantemente azuis e laranjas" />
             <div className="search-container">
                 <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
-                <input type="text" placeholder="Digite sua busca aqui..." value={searchTerm}  className="search-input"/>
-              
+                <input type="text" placeholder="Digite sua busca aqui..." className="search-input"/>
             </div>
             <div className="cards-categoria-container">
                 {cardsCategoriaData.map((cardCategoria, index) => (
