@@ -31,6 +31,7 @@ const BlogPosts = ({ cardsBlogData }) => {
 
   return (
     <div className="blog-container">
+        <h2 className="blog-title">Blog</h2>
         <div className="cards-blog-container">
             {visiblePosts.map((cardBlog, index) => (
                 <CardBlog key={index} title={cardBlog.title} image={cardBlog.image} alt={cardBlog.alt} text={cardBlog.text} />
