@@ -6,6 +6,7 @@ header {
     position: fixed;
     width: 100%;
     background-image: linear-gradient(var(--dark-color), #0712194d);
+    z-index: 100;
 }
 
 header .logo img {

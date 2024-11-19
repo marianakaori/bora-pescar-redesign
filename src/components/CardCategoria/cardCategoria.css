@@ -1,4 +1,25 @@
+.card-categoria {
+    position: relative;
+    width: 300px; 
+    border-radius: 8px; /* Para suavizar as bordas */
+    overflow: hidden; /* Garante que nada ultrapasse os limites */
+}
+  
 .card-categoria-image {
     width: 100%;
     height: auto;
+    display: block; /* imagem respeitar o container */
+}
+  
+.card-categoria-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(34, 87, 161, 0.7);  /* Fundo azul translúcido */
+    color: white;
+    text-align: center;
+    font-size: 1.1em; /* Ajuste conforme necessário */
+    padding: 15px 0; /* Espaçamento interno */
+    font-weight: bold; /* Destaca o texto */
+    border-radius: 50px 50px 0 0; /* Arredonda os cantos superiores */
 }
