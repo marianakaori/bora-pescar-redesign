@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons'
-import logo from "../../assets/borapescar2.png";
+import logo from "../../../public/assets/borapescar2.png";
 import './header.css'
 
 const toggleTheme = () => {

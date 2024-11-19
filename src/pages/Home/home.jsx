@@ -1,10 +1,10 @@
 import CardCategoria from '../../components/CardCategoria/cardCategoria';
 import cardsCategoriaData from '../../data/cardsCategoriaData.json';
 import cardsBlogData from '../../data/cardsBlogData.json';
-import marBackground from '../../assets/mar_background_subtract.png'
+import marBackground from '../../../public/assets/mar_background_subtract.png'
 import BlogPosts from '../../components/BlogPosts/blogPosts';
 
-import logo from '../../assets/borapescar2.png'
+import logo from '../../../public/assets/borapescar2.png'
 
 import './home.css';
 
