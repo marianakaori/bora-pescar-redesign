@@ -1,7 +1,9 @@
 :root {
   /* Cores */
   --primary-color: #2257A1;
-  --secondary-color: #F69F5E;
+  --secondary-color: #0F2B52;
+  --tertiary-color: #F69F5E;
+  --dark-color: #071219;
   --background-color: var(--color-white);
   --transparent-primary-color: #2257a1c2;
   --text-color: #111111;
@@ -10,6 +12,7 @@
   /* Fontes */
   --font-family: 'Open Sans', sans-serif;
 
+  --font-size-xxs: 0.75rem;  /* 12px */
   --font-size-xs: 1rem;      /* 16px */
   --font-size-s: 1.25rem;    /* 20px */
   --font-size-m: 1.5rem;     /* 24px */
@@ -28,6 +31,7 @@
 }
 
 [font-size="medium"] {
+  --font-size-xxs: 1rem;     /* 16px */
   --font-size-xs: 1.25rem;   /* 20px */
   --font-size-s: 1.5rem;     /* 24px */
   --font-size-m: 1.75rem;    /* 28px */
@@ -36,6 +40,7 @@
 }
 
 [font-size="large"] {
+  --font-size-xxs: 1.25rem;  /* 20px */
   --font-size-xs: 1.5rem;    /* 24px */
   --font-size-s: 1.75rem;    /* 28px */
   --font-size-m: 2rem;       /* 32px */
