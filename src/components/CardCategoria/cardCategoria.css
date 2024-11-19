@@ -1,7 +1,7 @@
 .card-categoria {
     position: relative;
     width: auto; 
-    border-radius: 8px; /* Para suavizar as bordas */
+    border-radius: 8px; 
     overflow: hidden; /* Garante que nada ultrapasse os limites */
 }
   
@@ -18,8 +18,8 @@
     background: rgba(34, 87, 161, 0.7);  /* Fundo azul translúcido */
     color: white;
     text-align: center;
-    font-size: 1.1em; /* Ajuste conforme necessário */
-    padding: 15px 0; /* Espaçamento interno */
-    font-weight: bold; /* Destaca o texto */
-    border-radius: 50px 50px 0 0; /* Arredonda os cantos superiores */
+    font-size: 1.1em;
+    padding: 15px 0; 
+    font-weight: bold; 
+    border-radius: 50px 50px 0 0; 
 }

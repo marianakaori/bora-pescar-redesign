@@ -12,10 +12,15 @@ const Home = () => {
     return (
         <div>
             <img src={marBackground} alt="Imagem do mar no pôr do sol, com as cores predominantemente azuis e laranjas" />
-            <div className="search-container">
+            
+            <div class="logo-container">
                 <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
-                <input type="text" placeholder="Digite sua busca aqui..." className="search-input"/>
+
             </div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Digite sua busca aqui..." />
+            </div>
+
             <div className="cards-categoria-container">
                 {cardsCategoriaData.map((cardCategoria, index) => (
                     <CardCategoria key={index} title={cardCategoria.title} image={cardCategoria.image} alt={cardCategoria.alt} />
