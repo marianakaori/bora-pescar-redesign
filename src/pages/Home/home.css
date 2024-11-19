@@ -38,13 +38,12 @@
 
 /* Estilo do logo */
 .title-image {
-    max-width: 250px; 
-    width: 100%;
+    width: 310px;
     height: auto;
     margin: 0 auto; 
     position: absolute; 
     z-index: 3; 
-    top: 5%;
+    top: -35px;
     left: 50%; 
     transform: translate(-50%, 0); 
 }
