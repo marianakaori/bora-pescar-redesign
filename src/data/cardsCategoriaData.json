@@ -1,62 +1,62 @@
 [
     {
         "title": "Pesque e pague",
-        "image": "../../../public/static/images/pesque-e-pague.png",
+        "image": "public/static/images/pesque-e-pague.png",
         "alt": "Fotografia com dois lagos de ‘pesque e pague’ com arredores em grama verde clara. Um dos lagos – o menor – está mais próximo, enquanto o maior localiza-se no fundo da imagem. Os lagos são separados por um fino curso de terra com uma pequena cabana de madeira e pessoas por de baixo de seu teto. Atrás dos lagos, no fundo da imagem, tem-se árvores densas e, em volta do lago, outras duas cabanas semelhantes a que está entre os dois lagos."
     },
     {
         "title": "Lojas de pesca físicas",
-        "image": "../../../public/static/images/lojas-pesca-fisicas.png",
+        "image": "public/static/images/lojas-pesca-fisicas.png",
         "alt": "Fotografia de embalagens de isca artificial de pesca penduradas em diversos suportes em uma parede."
     },
     {
         "title": "Lojas de pesca virtuais",
-        "image": "../../../public/static/images/lojas-pesca-virtuais.png",
+        "image": "public/static/images/lojas-pesca-virtuais.png",
         "alt": "Fotografia de embalagens de linha de pesca penduradas em diversos suportes em uma parede."
     },
     {
         "title": "Restaurantes",
-        "image": "../../../public/static/images/restaurantes.png",
+        "image": "public/static/images/restaurantes.png",
         "alt": "A fotografia exibe um prato de camarões fritos"
     },
     {
         "title": "Pousadas",
-        "image": "../../../public/static/images/pousadas.png",
+        "image": "public/static/images/pousadas.png",
         "alt": "A fotografia exibe uma piscina aos fundos de uma residência de dois andares com paredes externas amarelas. Há plantas de alto e médio porte aos redores da propriedade, além de cadeiras e um guarda-sol em volta da piscina."
     },
     {
         "title": "Locação de barcos",
-        "image": "../../../public/static/images/locacao-barcos.png",
+        "image": "public/static/images/locacao-barcos.png",
         "alt": "Foto tirada de dentro de um barco, com a câmera voltada para o mar. É possível visualizar 4 varas de pesca posicionadas dentro do barco viradas para o oceano."
     },
     {
         "title": "Marinas",
-        "image": "../../../public/static/images/marinas.png",
+        "image": "public/static/images/marinas.png",
         "alt": "Fotografia aérea exibindo barcos de diferentes portes atracados em um porto. Todos os barcos são brancos, e a maioria apresenta um mastro para içar vela."
     },
     {
         "title": "Guias de Pesca",
-        "image": "../../../public/static/images/guias-pesca.png",
+        "image": "public/static/images/guias-pesca.png",
         "alt": "Fotografia de uma pessoa de boné preto, pele marrom clara e barba cheia. Essa pessoa está segurando a câmera, e fotografou ela e uma outra pessoa. Esta outra pessoa, que usa um chapéu típico de pescadores, tem pele clara e usa óculos,faz um “jóia” com a mão esquerda e, com a mão direita, segura, com a ajuda de um alicate, a boca de um peixe fisgado."
     },
     {
         "title": "Customizadores",
-        "image": "../../../public/static/images/customizadores.png",
+        "image": "public/static/images/customizadores.png",
         "alt": "Foto de uma pessoa de cabelo grisalho, pele clara, com bigode preto e usando óculos, trabalhando, sentada em uma cadeira, sobre uma bancada de madeira. Em sua mão, é possível observar uma ferramenta. Uma luminária de mesa o ajuda a visualizar as peças. "
     },
     {
         "title": "Peixarias",
-        "image": "../../../public/static/images/peixarias.png",
+        "image": "public/static/images/peixarias.png",
         "alt": "Foto de uma bacia cinza com camarões do tipo “Sete Barbas”, cheia até o topo."
     },
     {
         "title": "Previsão do tempo",
-        "image": "../../../public/static/images/previsao-tempo.png",
+        "image": "public/static/images/previsao-tempo.png",
         "alt": "Imagem de um mapa da América do Sul, onde o Brasil está em foco, com algumas imagens de sóis cobertos por nuvens, indicando uma estimativa de previsão do tempo para as regiões."
     },
     {
         "title": "Galerias de Pescadores",
-        "image": "../../../public/static/images/galerias-pescadores.png",
+        "image": "public/static/images/galerias-pescadores.png",
         "alt": "Foto de um pescador de boné, óculos escuro e bigode, segurando pela boca uma vara de pescar, na parte do molinete. Com as mãos, ele segura um peixe verde, com o auxílio de um alicate, que está bem perto da câmera. Ao fundo, vê-se um corpo d’água, e mais acima, uma planície verde. "
     }
 ]
