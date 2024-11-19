@@ -6,7 +6,7 @@
     display: flex;
     text-align: start;
     flex-direction: column;
-    background-image: url('../../../public/static/images/fundoFormulario.png'); 
+    background-image: url('../../../public/images/fundoFormulario.png'); 
     background-size: auto; 
     background-position: center; 
     background-repeat: no-repeat; 

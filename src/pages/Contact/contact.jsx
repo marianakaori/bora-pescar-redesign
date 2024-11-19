@@ -1,6 +1,6 @@
 import ContactForm from "../../components/ContactForm/contactForm";
-import marPescadoresBackground from '../../../public/static/images/mar_pescadores_background_subtract.png'
-import logo from '../../../public/static/images/logo-bora-pescar.png'
+import marPescadoresBackground from '/images/mar_pescadores_background_subtract.png'
+import logo from '/images/logo-bora-pescar.png'
 import './contact.css';
 
 const Contact = () => {
