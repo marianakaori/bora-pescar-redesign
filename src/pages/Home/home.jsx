@@ -11,7 +11,7 @@ import './home.css';
 const Home = () => {
     return (
         <div>
-            <img src={marBackground} alt="Imagem do mar no pôr do sol, com as cores predominantemente azuis e laranjas" />
+            <img className="img-background" src={marBackground} alt="Imagem do mar no pôr do sol, com as cores predominantemente azuis e laranjas" />
             <div className="search-container">
                 <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
                 <input type="text" placeholder="Digite sua busca aqui..." className="search-input"/>
