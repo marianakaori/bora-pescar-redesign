@@ -1,8 +1,16 @@
+import CardCategoria from '../../components/CardCategoria/cardCategoria';
+import cardsCategoriaData from '../../data/cardsCategoriaData.json';
+
+import './home.css';
+
 const Home = () => {
     return (
         <div>
-            <h1>Bem-vindo à Página Inicial</h1>
-            <p>Conteúdo da página inicial aqui.</p>
+            <div className="cards-categoria-container">
+                {cardsCategoriaData.map((cardCategoria, index) => (
+                    <CardCategoria key={index} title={cardCategoria.title} image={cardCategoria.image} alt={cardCategoria.alt} />
+                ))}
+            </div>
         </div>
     );
 };
