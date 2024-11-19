@@ -1,0 +1,36 @@
+.container-up-button {
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    bottom: -38px;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Suaviza o aparecimento/desaparecimento */
+}
+
+.scroll-to-start-button {
+    position: absolute;
+    bottom: 7rem;
+    right: 3rem;     /* Distância da borda direita */
+    z-index: 1000;   /* Garante que fique acima de outros elementos */
+    opacity: 1;      /* Visível por padrão */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Suaviza o aparecimento/desaparecimento */
+}
+
+.scroll-to-start-button.hidden {
+    opacity: 0;          /* Torna invisível */
+    visibility: hidden;  /* Remove do fluxo visual para evitar cliques */
+}
+
+.scroll-to-start-button button {
+    background-color: var(--primary-color); /* Cor de fundo */
+    color: var(--color-white);             /* Cor do texto/ícone */
+    border: none;             /* Remove a borda */
+    border-radius: 50%;       /* Torna o botão circular */
+    width: 50px;              /* Largura do botão */
+    height: 50px;             /* Altura do botão */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+    cursor: pointer;          /* Muda o cursor ao passar por cima */
+}
+
+.scroll-to-start-button button:hover {
+    background-color: var(--primary-color); /* Cor ao passar o mouse */
+}
