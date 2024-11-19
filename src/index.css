@@ -3,6 +3,7 @@
   --primary-color: #2257A1;
   --secondary-color: #0F2B52;
   --tertiary-color: #F69F5E;
+  --dark-tertiary-color: #E67E22;
   --dark-color: #071219;
   --background-color: var(--color-white);
   --transparent-primary-color: #2257a1c2;
@@ -21,6 +22,7 @@
 
   /* Outros */
   --border-radius: 8px;
+  --outer-margin: 200px;
 }
 
 [theme="high-contrast"] {

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons'
 import logo from "../../assets/borapescar2.png";
 import './header.css'
 
@@ -52,10 +54,10 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <div>
-                <button onClick={toggleTheme}>Toggle Theme</button>
-                <button onClick={() => adjustFontSize("increase")}>Aumentar Fonte</button>
-                <button onClick={() => adjustFontSize("decrease")}>Diminuir Fonte</button>
+            <div className="accessibilityButtons">
+                <button onClick={toggleTheme}><FontAwesomeIcon icon={faCircleHalfStroke} /></button>
+                <button onClick={() => adjustFontSize("increase")}>A+</button>
+                <button onClick={() => adjustFontSize("decrease")}>A-</button>
             </div>
         </header>
     );

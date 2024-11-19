@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(var(--dark-color), #0712194d);
+}
+
+header .logo img {
+    height: 50px;
+    margin-left: calc(var(--outer-margin) - 20px);
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: var(--font-size-m);
+    font-weight: bold;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover,
+nav ul li a:hover {
+    color: var(--dark-tertiary-color);
+}
+
+nav ul li:nth-child(3) {
+    background-color: var(--tertiary-color); /* Fundo laranja para "Anuncie Conosco" */
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: var(--color-white);
+}
+
+nav ul li:nth-child(3):hover {
+    background-color: var(--dark-tertiary-color);
+}
+
+.accessibilityButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.accessibilityButtons button {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    font-family: 'Monomaniac One', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.accessibilityButtons button:hover {
+    background-color: var(--secondary-color); /* Azul mais escuro para hover */
+}
