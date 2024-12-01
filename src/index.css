@@ -10,6 +10,7 @@
   --transparent-primary-color: #2257a1c2;
   --text-color: #111111;
   --color-white: #FFFFFF;
+  --color-gray: #737373;
 
   /* Fontes */
   --font-family: 'Open Sans', sans-serif;
@@ -24,13 +25,27 @@
   /* Outros */
   --border-radius: 8px;
   --outer-margin: 200px;
+
+  /* Imagem de fundo */
+  --img-fundo-contato: url('/images/fundoFormulario.png');
 }
 
 [theme="high-contrast"] {
-  /* TODO: definir as cores de alto contraste */
-  --primary-color: #ffffff;
-  --background-color: #ff18b2;
-  --text-color: #f4f4f4;
+  /* Cores */
+  --primary-color: #0000ff;
+  --secondary-color: var(--primary-color);
+  --tertiary-color: #ffb700;
+  --dark-tertiary-color: #c45b00;
+  --dark-color: #000000;
+  --light-color: var(--dark-color);
+  --background-color: var(--dark-color);
+  --transparent-primary-color: #0000ffc2;
+  --text-color: var(--color-white);
+  --color-white: #FFFFFF;
+  --color-gray: var(--color-white);
+
+  /* Imagem de fundo */
+  --img-fundo-contato: url('/images/fundoFormularioContraste.png');
 }
 
 [font-size="medium"] {

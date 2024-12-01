@@ -2,24 +2,25 @@
     position: relative;
     width: auto; 
     border-radius: 8px; 
-    overflow: hidden; /* Garante que nada ultrapasse os limites */
+    overflow: hidden;
+    outline: 4px solid var(--color-white);
 }
   
 .card-categoria-image {
     width: 100%;
     height: auto;
-    display: block; /* imagem respeitar o container */
+    display: block;
 }
   
 .card-categoria-title {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: rgba(34, 87, 161, 0.7);  /* Fundo azul translúcido */
-    color: white;
+    background: var(--transparent-primary-color);
+    color: var(--color-white);
     text-align: center;
-    font-size: var(--font-size-m); /* Ajuste conforme necessário */
-    padding: 15px 0; /* Espaçamento interno */
-    font-weight: bold; /* Destaca o texto */
-    border-radius: 50px 50px 0 0; /* Arredonda os cantos superiores */
+    font-size: var(--font-size-m);
+    padding: 15px 0;
+    font-weight: bold;
+    border-radius: 50px 50px 0 0;
 }

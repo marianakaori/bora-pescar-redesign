@@ -15,17 +15,17 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 800; 
     font-size: 40px;
-    text-align: center;
-    color: #333;     margin: 20px 0;
-    color: #737373;
-  }
-  .subtitle {
+    text-align: center; 
+    margin: 20px 0;
+    color: var(--color-gray);
+}
+.subtitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px; 
     text-align: center; 
-    color: #737373; 
+    color: var(--color-gray); 
     margin-bottom: 30px; 
-  }
+}
 
 /* Contêiner do logo */
 .logo-container {
@@ -57,7 +57,7 @@
 
 .search-container {
     text-align: center;
-    background-color: rgb(34, 87, 161);
+    background-color: var(--primary-color);
     padding: 40px 30px;
     border-radius: 5px;
     margin-top: -40px; 
@@ -80,7 +80,7 @@
     max-width: 500px;
     padding: 10px 15px;
     font-size: 1rem;
-    border: 2px solid #ffffff; 
+    border: 2px solid var(--color-white); 
     border-radius: 5px;
     outline: none;
     transition: border-color 0.3s ease-in-out;
@@ -88,28 +88,28 @@
 
 /* Efeito de foco */
 .search-input:focus {
-    border-color: #fff; 
+    border-color: var(--color-white); 
     background-color: rgba(255, 255, 255, 0.2); 
-    color: #fff; /* Texto branco */
+    color: var(--color-white); /* Texto branco */
 }
 
 .center-container-square {
     display: flex;
     margin: 40px 0;
-  }
+}
   
-  .ad-square {
+.ad-square {
     width: auto;
     height: 300px;
-    background-color: #f0f0f0;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #737373;
+    color: var(--color-white);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
   
