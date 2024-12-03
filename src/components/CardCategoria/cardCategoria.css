@@ -5,6 +5,10 @@
     overflow: hidden;
     outline: 4px solid var(--color-white);
 }
+
+.card-categoria:hover {
+    cursor: pointer;
+}
   
 .card-categoria-image {
     width: 100%;
@@ -16,11 +20,18 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    min-height: 0%;
     background: var(--transparent-primary-color);
     color: var(--color-white);
     text-align: center;
+    align-content: center;
     font-size: var(--font-size-m);
     padding: 15px 0;
     font-weight: bold;
     border-radius: 50px 50px 0 0;
+    transition: min-height 0.3s;
+}
+
+.card-categoria:hover .card-categoria-title {
+    min-height: 100%;
 }
