@@ -5,7 +5,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     background-color: var(--background-color);
-    font-family: Arial, sans-serif;
     outline: 4px solid var(--color-white);
 }
   
