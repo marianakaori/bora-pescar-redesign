@@ -1,4 +1,6 @@
 .card-blog {
+    display: flex;
+    flex-direction: column;
     width: 450px;
     border-radius: 10px;
     overflow: hidden;
@@ -6,6 +8,7 @@
     transition: transform 0.3s, box-shadow 0.3s;
     background-color: var(--background-color);
     outline: 4px solid var(--color-white);
+    border: none;
 }
 
 .card-blog:focus {
@@ -35,6 +38,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: -webkit-fill-available;
 }
   
 .card-blog-text {
