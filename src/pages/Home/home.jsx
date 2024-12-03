@@ -3,6 +3,8 @@ import cardsCategoriaData from '../../data/cardsCategoriaData.json';
 import cardsBlogData from '../../data/cardsBlogData.json';
 import marBackground from '/images/mar_background_subtract.png'
 import BlogPosts from '../../components/BlogPosts/blogPosts';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
 
 import logo from '/images/borapescar2.png'
 
@@ -16,7 +18,10 @@ const Home = () => {
             </div>
             <div className="search-container">
                 <img src={logo} alt="Logo do Bora Pescar"   className="title-image" />
-                <input type="text" placeholder="Digite sua busca aqui..." className="search-input"/>
+                <div className='input-container'>
+                    <input type="text" placeholder="Digite sua busca aqui..." className="search-input"/>
+                    <FontAwesomeIcon className='search-icon' icon={faMagnifyingGlass} />
+                </div>
             </div>
             <h1 className="main-title">O maior portal de anúncios de pesca do Brasil!</h1>
             <p className="subtitle">
