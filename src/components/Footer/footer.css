@@ -57,7 +57,21 @@ footer {
 
 .footer-bottom {
     background-color: var(--dark-color);
-    padding: 20px 0px;
+    padding: 20px;
     font-size: var(--font-size-xxs);
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-contact {
+        width: auto;
+        word-break: break-word;
+    }
+    .footer-info{
+        width: auto;
+    }
 }
