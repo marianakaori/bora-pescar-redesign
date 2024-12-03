@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons'
 import logo from "/images/borapescar2.png";
@@ -28,6 +29,16 @@ const adjustFontSize = (action) => {
 };
   
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
     return (
         <header>
             <div className="logo">
@@ -35,7 +46,13 @@ const Header = () => {
                     <img src={logo} alt="Logo do Bora Pescar" />
                 </Link>
             </div>
-            <nav>
+            <button className="menu-toggle" onClick={toggleMenu}>
+            ☰
+          </button>
+            <nav className={`menu ${isOpen ? "open" : ""}`}>
+                <button className={`menu-close ${isOpen ? "open" : ""}`} onClick={closeMenu}>
+                ✖
+                </button>
                 <ul>
                     <li>
                         <Link to="/">Página Inicial</Link>

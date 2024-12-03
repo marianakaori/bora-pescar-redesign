@@ -75,3 +75,71 @@ nav ul li:nth-child(3):hover {
 .accessibilityButtons button:hover {
     background-color: var(--secondary-color); /* Azul mais escuro para hover */
 }
+
+
+.menu-toggle {
+    display: none; /* Esconde o botão por padrão */
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+  
+@media (max-width: 1670px) {
+
+    .logo {
+        display: none;
+    }
+
+    .menu{
+        margin-left: 18%;
+    }
+}
+
+.menu-close {
+    display: none; 
+    position: fixed;
+    right: 0.5rem;
+    top: 5.5rem;
+    background: none;
+    border: none;
+    font-size: 2.4rem;
+    color: var(--color-white);
+    cursor: pointer;
+    z-index: 2;
+  }
+
+@media (max-width: 1480px) {
+
+    .menu-toggle {
+        display: block; /* Mostra o botão */
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 5.5rem;
+        left: 0rem;
+        width: 100%;
+        background: var(--primary-color);
+        box-shadow: 0px 0.25rem 0.3rem rgba(0, 0, 0, 0.5);
+        padding: 0.625rem;
+    }
+
+    nav.open ul {
+        display: flex; /* Mostra o menu quando aberto */
+    }
+
+    .open {
+        display: block; /* Mostra o botão de fechar */
+    }
+
+
+}
+
+
