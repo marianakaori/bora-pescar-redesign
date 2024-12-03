@@ -11,6 +11,7 @@
   --text-color: #111111;
   --color-white: #FFFFFF;
   --color-gray: #737373;
+  --contato-fundo-texto: #0E498F;
 
   /* Fontes */
   --font-family: 'Open Sans', sans-serif;
@@ -24,7 +25,7 @@
 
   /* Outros */
   --border-radius: 8px;
-  --outer-margin: 200px;
+  --outer-margin: 10%;
 
   /* Imagem de fundo */
   --img-fundo-contato: url('/images/fundoFormulario.png');
@@ -43,6 +44,7 @@
   --text-color: var(--color-white);
   --color-white: #FFFFFF;
   --color-gray: var(--color-white);
+  --contato-fundo-texto: var(--dark-color);
 
   /* Imagem de fundo */
   --img-fundo-contato: url('/images/fundoFormularioContraste.png');
