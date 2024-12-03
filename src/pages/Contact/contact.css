@@ -7,7 +7,7 @@
     text-align: start;
     flex-direction: column;
     background-image: var(--img-fundo-contato); 
-    background-size: auto; 
+    background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     align-items: center;
@@ -18,10 +18,13 @@
 }
 
 .contact-text {
-    color: var(--light-color);
+    color: var(--color-white);
     font-size: var(--font-size-s);
     width: 1100px;
     margin-bottom: 40px;
+    padding: 30px;
+
+    background-color: var(--contato-fundo-texto);
 }
 
 .contact-container h2 { 
