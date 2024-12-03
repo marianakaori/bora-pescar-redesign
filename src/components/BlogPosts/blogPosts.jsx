@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import CardBlog from '../../components/CardBlog/cardBlog';
@@ -6,15 +6,31 @@ import './blogPosts.css';
 import PropTypes from "prop-types";
 
 
-const PostsPerPage = 3;
-
 const BlogPosts = ({ cardsBlogData }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [postsPerPage, setPostsPerPage] = useState(3);
+
+  useEffect(() => {
+    const updatePostsPerPage = () => {
+      if (window.innerWidth < 768) {
+        setPostsPerPage(1);
+      } else if (window.innerWidth < 1200) {
+        setPostsPerPage(2);
+      } else {
+        setPostsPerPage(3);
+      }
+    };
+
+    updatePostsPerPage(); // Define o número de posts inicialmente
+    window.addEventListener("resize", updatePostsPerPage); // Atualiza em tempo real
+
+    return () => window.removeEventListener("resize", updatePostsPerPage); // Limpa o evento ao desmontar
+  }, []);
 
   // Calcula os posts visíveis com base no índice atual
   const visiblePosts = cardsBlogData.slice(
     currentIndex,
-    currentIndex + PostsPerPage
+    currentIndex + postsPerPage
   );
 
   const handleNext = () => {
@@ -39,7 +55,7 @@ const BlogPosts = ({ cardsBlogData }) => {
         </div>
         <div className="navigation-buttons">
             <button onClick={handlePrev} disabled={currentIndex === 0}> <FontAwesomeIcon icon={faArrowLeft} /></button>
-            <button onClick={handleNext} disabled={currentIndex + PostsPerPage >= cardsBlogData.length}> <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button onClick={handleNext} disabled={currentIndex + postsPerPage >= cardsBlogData.length}> <FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
     </div>
   );

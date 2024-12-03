@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     margin: 40px var(--outer-margin);
+    gap: 30px;
 }
 
 .navigation-buttons {
@@ -33,5 +34,11 @@
 .navigation-buttons button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .cards-blog-container {
+        justify-content: center;
+    }
 }
   
