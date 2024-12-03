@@ -11,7 +11,7 @@ header {
 
 header .logo img {
     height: 50px;
-    margin-left: calc(var(--outer-margin) - 20px);
+    margin-left: 150px;
 }
 
 nav ul {

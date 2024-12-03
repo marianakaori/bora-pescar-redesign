@@ -19,8 +19,7 @@
     font-size: var(--font-size-xl);
     font-weight: 800; 
     text-align: center; 
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin: 50px 50px 20px 50px;
     color: var(--color-gray);
 }
 
@@ -28,7 +27,8 @@
     font-size: var(--font-size-s); 
     text-align: center; 
     color: var(--color-gray); 
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    margin: 0 50px 30px 50px;
 }
 
 .search-container {
