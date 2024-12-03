@@ -58,13 +58,13 @@ const Header = () => {
                         <Link to="/">Página Inicial</Link>
                     </li>
                     <li>
-                        Quem somos
+                    <Link to="#">Quem somos</Link>
                     </li>
                     <li>
-                        Anuncie Conosco
+                        <Link to="#">Anuncie Conosco</Link>
                     </li>
                     <li>
-                        Blog
+                        <Link to="#">Blog</Link>
                     </li>
                     <li>
                         <Link to="/contact">Contato</Link>

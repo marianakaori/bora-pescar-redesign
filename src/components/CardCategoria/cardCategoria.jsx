@@ -3,10 +3,10 @@ import './cardCategoria.css';
 
 const CardCategoria = ({ title, image, alt }) => {
     return (
-        <div className="card-categoria">
+        <button className="card-categoria">
             <img src={image} alt={alt} className="card-categoria-image" />
             <div className="card-categoria-title">{title}</div>
-        </div>
+        </button>
     );
 };
 
