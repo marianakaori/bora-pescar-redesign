@@ -20,7 +20,7 @@
 .contact-text {
     color: var(--color-white);
     font-size: var(--font-size-s);
-    width: 1100px;
+    width: 70%;
     margin-bottom: 40px;
     padding: 30px;
 
@@ -40,4 +40,5 @@
 
 .logo-bora-pescar {
     margin: 40px;
+    width: 40%;
 }

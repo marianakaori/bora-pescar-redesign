@@ -2,7 +2,7 @@
     background-color: var(--light-color);
     border-radius: 8px;
     padding: 30px;
-    width: 800px;
+    width: 50%;
     margin: 0;
     font-size: var(--font-size-s);
 }
