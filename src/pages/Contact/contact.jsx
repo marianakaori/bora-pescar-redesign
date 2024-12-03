@@ -6,7 +6,9 @@ import './contact.css';
 const Contact = () => {
     return (
         <div className="contact-page">
-            <img className="img-background" src={marPescadoresBackground} alt="Imagem de dois pescadores com varinhas estendidas na areia que estão olhando para o mar" />
+            <div className="img-container">
+                <img className="img-background" src={marPescadoresBackground} alt="Imagem de dois pescadores com varinhas estendidas na areia que estão olhando para o mar" />
+            </div>
             <img className="logo-bora-pescar" src={logo} alt="Logo do Bora Pescar" />
             <div className="contact-container">
                 <div className="contact-text">

@@ -1,7 +1,10 @@
-.img-background {
+.img-container {
     width: 100%;
+    overflow: hidden;
     position: relative;
     z-index: -1;
+    display: flex;
+    justify-content: center;
 }
 
 .cards-categoria-container {
