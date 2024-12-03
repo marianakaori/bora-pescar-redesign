@@ -9,6 +9,10 @@
 .card-categoria:hover {
     cursor: pointer;
 }
+
+.card-categoria:focus {
+    outline: 3px var(--tertiary-color) solid;
+}
   
 .card-categoria-image {
     width: 100%;
@@ -32,6 +36,7 @@
     transition: min-height 0.3s;
 }
 
+.card-categoria:focus .card-categoria-title,
 .card-categoria:hover .card-categoria-title {
     min-height: 100%;
 }
