@@ -70,3 +70,12 @@ form button:focus {
     box-shadow: 0 0 4px rgba(255, 140, 66, 0.5);
 }
   
+@media (max-width: 1000px) {
+    .form-container {
+        background-color: var(--contato-fundo-texto);
+        width: 100%;
+    }
+    form label {
+        color: var(--color-white);
+    }
+}

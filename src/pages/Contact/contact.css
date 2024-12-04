@@ -8,7 +8,9 @@ img-container{
 }
 
 .contact-page {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-container {
@@ -48,12 +50,31 @@ img-container{
 }
 
 .logo-bora-pescar {
-    margin: 40px;
     width: 40%;
+    margin-top: -190px;
 }
 
 @media (max-width: 1000px) {
     .contact-text {
         word-break: break-word;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .logo-bora-pescar {
+        margin-top: -350px;
+        width: 300px
+    }
+    .contact-container {
+        background-image: none; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        align-items: center;
+        margin: 50px var(--outer-margin);
+        margin-top: 250px;
+        padding: 0;
+    }
+    .contact-container h2 { 
+        color: var(--contato-titulo);
     }
 }

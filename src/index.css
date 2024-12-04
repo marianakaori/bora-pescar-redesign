@@ -12,6 +12,7 @@
   --color-white: #FFFFFF;
   --color-gray: #737373;
   --contato-fundo-texto: #0E498F;
+  --contato-titulo: var(--primary-color);
 
   /* Fontes */
   --font-family: 'Open Sans', sans-serif;
@@ -45,6 +46,7 @@
   --color-white: #FFFFFF;
   --color-gray: var(--color-white);
   --contato-fundo-texto: var(--dark-color);
+  --contato-titulo: var(--color-white);
 
   /* Imagem de fundo */
   --img-fundo-contato: url('/images/fundoFormularioContraste.png');
